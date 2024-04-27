@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placement Portal</title>
+<style>
+    /* Basic CSS Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+    /* Header Styles */
+    header {
+        background-color: #fff; /* Changed to white background */
+        color: #333; /* Changed text color to dark */
+        padding: 10px 0; /* Added padding top and bottom */
+        display: flex; /* Added flexbox for alignment */
+        justify-content: space-between; /* Align items to left and right */
+        align-items: center; /* Align items vertically */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Ensure header is above other content */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    }
+    header img {
+        width: 100px; /* Adjusted logo width */
+        margin-left: 20px; /* Added margin to align logo to left */
+    }
+    /* Navigation Styles */
+    nav {
+        background-color: #fff; /* Changed to white background */
+        text-align: center;
+        flex-grow: 1; /* Allow navigation to take remaining space */
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Center navigation items horizontally */
+    }
+    nav ul li {
+        margin: 0 10px;
+    }
+    nav ul li a {
+        color: #333; /* Changed text color to dark */
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        text-decoration: underline; /* Added underline on hover */
+    }
+    /* Main Content Styles */
+    .container {
+        max-width: 800px;
+        margin: 150px auto 20px; /* Adjusted margin to accommodate header */
+        padding: 0 20px;
+    }
+    /* Footer Styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <img src="https://www.svkm-iot.ac.in/wp-content/uploads/2023/10/1000100148.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/login">Login/Register</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <br><br>
+        <h2>Welcome to Placement Portal!</h2>
+        <p>Find your dream job or recruit top talents with us.</p>
+        <!-- Add more content here -->
+    </div>
+    <footer>
+        <p>&copy; 2024 Placement Portal</p>
+    </footer>
+</body>
+</html>
